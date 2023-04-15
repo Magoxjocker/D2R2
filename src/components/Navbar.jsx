@@ -15,10 +15,10 @@ const NavBar = () => {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? 'activo' : ''} aria-current="page" to="home">Home</NavLink>
+                                    <NavLink className={({ isActive }) => isActive ? 'activo' : ''} aria-current="page" to="/home">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? 'activo' : ''} to="favorite">Favoritos</NavLink>
+                                    <NavLink className={({ isActive }) => isActive ? 'activo' : ''} to="/favorite">Favoritos</NavLink>
                                 </li>
                             </ul>
                         </div>
